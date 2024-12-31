@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IISERites OWN  Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        /* Header Styles */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .logo {
+            color: #20BEFF;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+            float:left;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #000;
+            color: white;
+            border: none;
+        }
+
+        .btn-outline {
+            border: 1px solid #333;
+            background: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            padding: 4rem 2rem;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 4rem 2rem;
+            background-color: #f8f9fa;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .feature-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Stats Section */
+        .stats {
+            padding: 4rem 2rem;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stat-item h3 {
+            font-size: 2rem;
+            color: #20BEFF;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">IISER Adda</div>
+        <nav class="nav-links">
+            <a href="koshish.html">Home</a>
+            <a href="notes.html">Notes</a>
+            <a href="pyq.html">PYQ's</a>
+            <a href="assig.html">Assignments</a>
+            <a href="lab.html">Lab Work</a>
+            <a href="refer.html">References</a>
+        </nav>
+        <div class="auth-buttons">
+            <button class="btn btn-outline">Contact Us</button>
+            <a href="https://www.instagram.com/"><button class="btn btn-primary">Join us </button></a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>IISERites own Platform</h1>
+            <p> A place where all of you can access standard books,well written notes, Assignments, Previous year papers, Lab work and various reference links to increase your understanding .</p>
+            <!--<div class="auth-buttons">
+                <button class="btn btn-primary">Register with Google</button>
+                <button class="btn btn-outline">Register with Email</button>
+            </div>-->
+        </div>
+        <div class="hero-image">
+            <!-- Placeholder for hero image -->
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Learners</h3>
+                <p>Take a deep dive into the content, materials and boost acadamically</p>
+                <br>
+                <ul class="feature-list">
+                    <li>Notes</li>
+                    <li>PYQ's</li>
+                    <li>Useful videos</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3>Developers</h3>
+                <p>An effort from our side to make the availablity of resources easy and in an innovative way. </p>
+                <br>
+                <!--<ul class="feature-list">
+                    <li>Open-sourced models</li>
+                    <li>Competition solution write-ups</li>
+                    <li>Public notebooks</li>
+                </ul>-->
+            </div>
+            <div class="feature-card">
+                <h3>Community chat</h3>
+                <p>A free and open chat for your suggestions,queries and feedbacks</p>
+                <br>
+                <ul class="feature-list">
+                    <li>Community link</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <h2>Tackle your next semester with IISER Adda</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>5</h3>
+                <p>DATASETS</p>
+            </div>
+            <div class="stat-item">
+                <h3>0</h3>
+                <p>NOTEBOOKS</p>
+            </div>
+            <div class="stat-item">
+                <h3>4</h3>
+                <p>USERS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
